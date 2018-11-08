@@ -1,0 +1,83 @@
+#*
+#!*.*
+*.pyc
+*.pyo
+*.rdb
+*.directory
+*.log
+*.run
+*.out
+*.bak
+*.dat
+*.dir
+*.rst
+*.sublime-project
+*.sublime-workspace
+*.coverage
+*.ipynb
+*.editorconfig
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+bit.sh
+#Icon?
+ehthumbs.db
+Thumbs.db
+coverage.txt
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+*~
+
+# folders #
+.ipynb_checkpoints/
+
+# folder migrations #
+#####################
+# migrations
+# south_migrations
+# tests
+# confs
+wsse
+suds
+# Celery files #
+################
+celerybeat-schedule.db
+celerybeat-schedule
+celerybeat.pid
+celeryev.pid
+
+# Compress #
+############
+assets
+/.project
+*.tmp
+docs
+
+# Coverage files #
+##################
+.coverage.txt
+qservus/__init__\.py
+
+
+# Custom settings files #
+#########################
+settings_jnacer_dev.py
+env.json
+
+
+# *_merge_*.py
